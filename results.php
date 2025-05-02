@@ -11,7 +11,8 @@
 	// round the speed of light to 2 decimal places
 	$speedLightDiamond = sprintf("%.2f", $speedLightDiamond);
 	$speedLightWater = sprintf("%.2f", $speedLightWater);
+
+	echo "<h3>Results:</h3>";
+    echo "The speed of light in diamond is {$speedLightDiamond} m/s.<br>";
+    echo "The speed of light in water is {$speedLightWater} m/s.";
 ?>
-	<h3>Results:</h3>
-	The speed of light in diamond is <?php echo "$speedLightDiamond" ?>m/s.
-	The speed of light in water is <?php echo "$speedLightWater" ?>m/s.
