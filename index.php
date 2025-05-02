@@ -34,10 +34,8 @@
 
 			<!-- iframe for the results to show on the web page. -->
 			<iframe id="results" name="results">
-        <div id="user-info">
-        <div id="$speedLightDiamond"></div>
-        <div id="$speedLightWater"></div>
-        </div>
+        The speed of light in diamond is <span id="speedLightDiamond"></span> m/s.
+        The speed of light in water is <span id="speedLightWater"></span> m/s.
       </iframe>
 	</body>
 </html>

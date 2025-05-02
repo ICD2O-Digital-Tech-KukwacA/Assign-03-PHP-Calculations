@@ -1,5 +1,5 @@
 <?php
-	// get the base and height from the textfields
+	// get the indexes of refraction from the textfields
 	$indexDiamond = $_POST['indexRefDiamond'];
 	$indexWater = $_POST['indexRefWater'];
 
