@@ -1,7 +1,6 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $indexDiamond = floatval($_POST['indexRefDiamond']);
-    $indexWater = floatval($_POST['indexRefWater']);
+    $indexDiamond = $_POST['indexRefDiamond'];
+    $indexWater = $_POST['indexRefWater'];
 
     $speedLightAir = 299792458;
 
@@ -14,5 +13,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<h3>Results:</h3>";
     echo "The speed of light in diamond is {$speedLightDiamond} m/s.<br>";
     echo "The speed of light in water is {$speedLightWater} m/s.";
-}
+
 ?>
