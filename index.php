@@ -19,17 +19,17 @@
   <body>
     <h1>Speed of Light</h1>
     <h3>This program will calculate the Speed of Light in different Mediums.</h3>
-
+    
+    <!-- form to get the indexes of refraction from the user -->
     <form action="results.php" method="post" target="results">
       <label for="indexRefDiamond">Index of Refraction (Diamond):</label>
       <input type="float" id="indexRefDiamond" name="indexRefDiamond"><br><br>
-
       <label for="indexRefWater">Index of Refraction (Water):</label>
       <input type="float" id="indexRefWater" name="indexRefWater"><br><br>
-
       <input type="submit" value="Calculate Speed">
     </form>
 
+    <!-- iframe for the results to show on the web page. -->
     <iframe id="results" name="results" style="width:100%; height:150px;"></iframe>
   </body>
 </html>
